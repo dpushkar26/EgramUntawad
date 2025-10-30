@@ -3,29 +3,24 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const officers = [
   {
-    name: "Manisha Marathe",
-    position: "Sarpanch",
-    contact: "+91 98765 43210",
-    avatar: "/placeholder.svg",
+    name: "सौ. मनिषा राजकपूर मराठे",
+    position: "सरपंच",
+    // contact: "+91 98765 43210",
+    avatar: "/sarpanch.jpg",
   },
   {
-    name: "Priya Sharma",
-    position: "Secretary",
-    contact: "+91 98765 43211",
-    avatar: "/meeting.jpg",
+    name: "श्री.सखाराम राजाराम पाटील",
+    position: "उपसरपंच",
+    // contact: "+91 98765 43211",
+    // avatar: ".jpg",
   },
   {
-    name: "N.B.Deore",
-    position: "",
-    contact: "+91 98765 43212",
-    avatar: "/plantation.jpg",
+    name: "श्री एन.बी. देवरे ",
+    position: " ग्रामपंचायत अधिकारी ",
+    // contact: "+91 98765 43212",
+    avatar: "/gramsevak.jpg",
   },
-  {
-    name: "Sunita Devi",
-    position: "Ward Member",
-    contact: "+91 98765 43213",
-    avatar: "/clean.jpg",
-  },
+  
 ];
 
 const OfficersSection = () => {
